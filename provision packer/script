@@ -1,4 +1,5 @@
 #!/bin/bash
 
 # Install PyCharm
-sudo snap install pycharm-community --classic
+sudo snap install pycharm-community --classic #pycharm community ver
+sudo snap install pycharm-professional --classic #pycharm professional ver
