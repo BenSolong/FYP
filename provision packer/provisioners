@@ -2,5 +2,5 @@
     {
       "type": "shell",
       "execute_command": "echo 'ubuntu' | {{.Vars}} sudo -E -S bash '{{.Path}}'",
-      "script": "scripts/install_pycharm.sh"
+      "script": "scripts_software_install.sh"
     }
