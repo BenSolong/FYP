@@ -37,4 +37,6 @@ rm ./grd_rdp_credentials.c
 
 gsettings set org.gnome.desktop.remote-desktop.rdp view-only  false    
 
+systemctl --user restart gnome-remote-desktop.service
+
 echo "RDP credentials configured. You can now sign in with the new credentials."
