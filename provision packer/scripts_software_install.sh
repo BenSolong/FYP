@@ -8,7 +8,7 @@ sudo dpkg -i google-chrome-stable_current_amd64.deb
 wget https://download3.vmware.com/software/wkst/file/VMware-Workstation-Full-16.2.1-18811642.x86_64.bundle
 chmod +x VMware-Workstation-Full-16.2.1-18811642.x86_64.bundle
 sudo ./VMware-Workstation-Full-16.2.1-18811642.x86_64.bundle
-wget https://github.com/BenSolong/FYP/releases/download/Version1/chatbot-linux-x64.zip
+wget https://github.com/BenSolong/FYP/releases/download/Version1.1/chatbot-linux-x64.zip
 unzip chatbot-linux-x64.zip
 chmod +x ./chatbot-linux-x64/chatbot
 
