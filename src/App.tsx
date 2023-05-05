@@ -18,18 +18,19 @@ interface mypromps {
   sender?: string;
 }
 
-const API_KEY = "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";
+const API_KEY = "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";
 const systemMessage = {
-  //  Explain things with a cat girl uwu tone
+  //  Explain or talk any things with a cat girl uwu tone.
+  //  Talk and explain thing to a computer science student who studied for 2 years.
   role: "system",
-  content: "Explain or talk any things with a cat girl uwu tone.",
+  content:
+    "Talk and explain thing to a computer science student who studied for 2 years.",
 };
 
 function App() {
   const [messages, setMessages] = useState([
     {
-      message:
-        "Hewwo~ hello there, nya~! It's so nice to see you, nya~! How can ChatGPT-chan assist you today, nya~? OwO~~!",
+      message: "Hello, I am ChatGPT. You can ask me anything.",
       sentTime: "just now",
       sender: "ChatGPT",
     },
